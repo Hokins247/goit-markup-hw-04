@@ -94,10 +94,15 @@ body {
   color: var(--text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
+  fill: var(--text-color);
+}
+.svg-icons-header {
+  margin-right: 10px;
 }
 .my-contact-links:hover,
 .my-contact-links:focus {
   color: var(--buttom-push-color);
+  fill: var(--buttom-push-color);
 }
 /*Main section*/
 
@@ -163,15 +168,7 @@ body {
 .skills-section .item {
   width: 270px;
 }
-.skills-section .item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  width: 270px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
+
 .skills {
   font-weight: 700;
   font-size: 14px;
