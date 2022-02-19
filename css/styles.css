@@ -163,6 +163,15 @@ body {
 .skills-section .item {
   width: 270px;
 }
+.skills-section .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .skills {
   font-weight: 700;
   font-size: 14px;
