@@ -95,6 +95,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   fill: var(--text-color);
+  align-items: center;
+  display: flex;
 }
 .svg-icons-header {
   margin-right: 10px;
