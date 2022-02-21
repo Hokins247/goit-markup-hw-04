@@ -164,6 +164,24 @@ body {
   margin-bottom: 0px;
   margin-top: 0;
 }
+.svg {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.skills-svg {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  fill: var(--primaey-text-color);
+  object-position: center;
+  padding-top: 25px;
+}
+.skills-svg:hover,
+.skills-svg:focus {
+  fill: var(--buttom-push-color);
+}
 .skills-section .item:not(:last-child) {
   margin-right: 30px;
 }
