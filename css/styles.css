@@ -296,6 +296,36 @@ body {
   margin-top: 10px;
   margin-bottom: 0;
 }
+.my-social-link-container {
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  padding: 0;
+  display: flex;
+}
+.my-socialweb-link {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.my-socialweb-link:hover,
+.my-socialweb-link:focus {
+  background-color: var(--buttom-push-color);
+  fill: #ffffff;
+  cursor: pointer;
+}
+.my-socialweb-link:not(:last-child) {
+  margin-right: 10px;
+}
 
 .footer-section {
   background-color: rgba(47, 48, 58, 1);
@@ -341,6 +371,13 @@ body {
 .my-contact-links2:hover,
 .my-contact-links2:focus {
   color: var(--buttom-color);
+}
+.company-social-links {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /*Portfolio*/
 .main-section-portfolio {
@@ -439,33 +476,8 @@ body {
 li {
   list-style-type: none;
 }
-.my-social-link-container {
+.social-links-company-section {
+  display: block;
   width: 206px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  padding: 0;
-  display: flex;
-}
-.my-socialweb-link {
-  height: 44px;
-  width: 44px;
-  display: flex;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  fill: #afb1b8;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.my-socialweb-link:hover,
-.my-socialweb-link:focus {
-  background-color: var(--buttom-push-color);
-  fill: #ffffff;
-  cursor: pointer;
-}
-.my-socialweb-link:not(:last-child) {
-  margin-right: 10px;
+  height: 80px;
 }
