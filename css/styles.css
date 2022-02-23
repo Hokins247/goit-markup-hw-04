@@ -326,7 +326,34 @@ body {
 .my-socialweb-link:not(:last-child) {
   margin-right: 10px;
 }
+.company-section {
+  padding-left: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.company-buttom-links {
+  display: flex;
+  padding-left: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
 
+.link-company {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  fill: rgba(175, 177, 184, 1);
+}
+.link-company:hover,
+.link-company:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
 .footer-section {
   background-color: rgba(47, 48, 58, 1);
   padding-left: 0px;
