@@ -257,7 +257,6 @@ body {
   padding-left: 0px;
   margin-top: 50px;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, 1);
 }
 .people-container .item:not(:last-child) {
   margin-right: 30px;
@@ -273,6 +272,7 @@ body {
   width: 270px;
   margin-top: 0;
   margin-bottom: 0;
+  background-color: #ffffff;
 }
 .name-profession-section {
   padding-top: 30px;
