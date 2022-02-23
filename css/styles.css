@@ -353,6 +353,7 @@ body {
   padding-left: 0;
   margin-top: 9px;
   margin-bottom: 0;
+  justify-content: space-between;
 }
 .my-contact-links2 {
   color: rgba(255, 255, 255, 0.6);
@@ -378,6 +379,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 /*Portfolio*/
 .main-section-portfolio {
@@ -476,8 +479,38 @@ body {
 li {
   list-style-type: none;
 }
+.main-section-container {
+  display: flex;
+  align-items: baseline;
+}
 .social-links-company-section {
-  display: block;
-  width: 206px;
-  height: 80px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+.my-socialweb-link-footer {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.my-socialweb-link-footer:hover,
+.my-socialweb-link-footer:focus {
+  background-color: var(--buttom-push-color);
+  fill: #ffffff;
+  cursor: pointer;
+}
+.social-links-company-section:not(:last-child) {
+  margin-right: 10px;
+}
+.social-company-container {
+  margin-left: 70px;
 }
