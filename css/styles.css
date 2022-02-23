@@ -190,7 +190,6 @@ body {
 .skills-section .item {
   width: 270px;
 }
-
 .skills {
   font-weight: 700;
   font-size: 14px;
@@ -338,7 +337,6 @@ body {
   margin-bottom: 0;
   justify-content: space-between;
 }
-
 .link-company {
   display: flex;
   width: 170px;
